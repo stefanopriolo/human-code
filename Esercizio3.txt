@@ -1,0 +1,35 @@
+Obiettivo scegliere
+
+1- Aprire Netflix
+
+2- Scegliere categoria:
+   SE (poco tempo)
+    - scegliere serie tv
+   Altrimenti
+    - scegliere Film
+
+3- Scorrere generi:
+    SE (umore > 0)
+    - scegliere commedia
+    ALTRIMENTI
+      SE (umore = 0)
+      - scegliere action movie
+    ALTRIMENTI
+      SE (umore < 0)
+      - film drammatico
+
+4- Scorrere catalogo:
+    SE (novità = 1)      //* prodotto mai visto *//
+      - Selezionare prodotto
+        SE (prodotto seggerito da Netflix) AND (stelle > 3)      //* valuitazione 3/5 stelle *//
+        - Leggere trama
+          SE (trama > 0) OR (consiglio amici = 1)
+          - Clickare su play
+          ALTRIMENTI
+          - Tornare a selezionare prodotto
+        ALTRIMENTI
+        - Tornare a selezionare prodotto
+    ALTRIMENTI
+      - Seleziona prodotto già visto e apprezzato
+      - clickare play
+
